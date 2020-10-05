@@ -1,0 +1,93 @@
+body, html {
+  height: 100%;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5{
+    margin: 0;
+}
+#header { 
+    width:100%;
+    margin: 0 auto;
+}
+.banner{
+    background-image: url(../images/banner.jpg);
+    min-height: 645px; 
+}
+.tasks{
+    margin-left: 20%;
+    color: #00FFFF;
+    font-size: 54px;    
+    font-family: aria;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.quotes{
+    margin: 0 auto;
+    width: 50%;
+    height: 20%;
+    color: #fff;
+    font-size: 50px;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 130px;
+}
+
+#wrapper{
+    margin: 90px auto;
+    width: 100%;
+    padding-bottom: 260px;
+    min-width: 1500px;
+}
+
+#column-1, #column-2, #column-3 {
+    width: 330px;
+    background: #fff;
+    float: left;
+    border: 1px #DBD7D2 solid;
+    margin-left: 117px;
+    margin-top: 30px;
+}
+#column-1, #column-3 {
+  height: 234px;
+}
+#column-1{
+    margin-left: 235px;
+}
+.radio_r{
+    font-size: 35px;
+    font-family: verdana;
+}
+h5{
+    padding-left: 28%;
+}
+input[type=checkbox], input[type=radio] {
+    margin: 4px 10px 0;
+    line-height: normal;
+}
+.fdsa{
+    margin-top: 50px;
+    margin-left: 95px;
+    background-color: #e84545;
+    color: #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+}
+#container img{
+    max-width: 450px;
+    margin: 10px;
+}
+#footer {
+    background: rgba(14,14,14,0.95);
+    height: 426px; /* Высота блока footer */
+}
+#footer img{
+    float: left;
+}
+#footer p{
+    color: #fff;
+    font: italic 36px "Cardo", Georgia, "Times New Roman", serif;
+    padding-top: 10%;
+}
